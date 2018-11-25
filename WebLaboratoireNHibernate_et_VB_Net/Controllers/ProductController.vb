@@ -22,6 +22,7 @@ Namespace Controllers
 
         <HttpGet()>
         Function Index() As ActionResult
+
             Return View()
         End Function
 
