@@ -35,7 +35,7 @@
 
         <div class="wrap_header">
             <!-- Logo -->
-            <a href="@Url.Action("Index", "Home", Nothing)" class="logo">
+            <a href="@Url.Action("Accueil", "Accueil", Nothing)" class="logo">
                 <img src="/Content/images/icons/logo.png" alt="IMG-LOGO">
             </a>
 
@@ -44,7 +44,7 @@
                 <nav class="menu">
                     <ul class="main_menu">
                         <li>
-                            @Html.ActionLink(Resources.Traduction.Accueil, "Index", "Home", Nothing, New With {.id = "Home", .title = Resources.Traduction.Accueil})
+                            @Html.ActionLink(Resources.Traduction.Accueil, "Index", "Accueil", Nothing, New With {.id = "Home", .title = Resources.Traduction.Accueil})
                             @*<ul class="sub_menu">
                                     <li><a href="index.html">Homepage V1</a></li>
                                     <li><a href="home-02.html">Homepage V2</a></li>

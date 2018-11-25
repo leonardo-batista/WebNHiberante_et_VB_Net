@@ -1,18 +1,12 @@
 ﻿Imports System.Web.Mvc
 
 Namespace Controllers
-    Public Class AccueilController
+    Public Class ProductByCategoryController
         Inherits Controller
 
-        <HttpGet()>
-        Function Accueil() As ActionResult
-            Return View()
-        End Function
-
-        <HttpGet()>
+        ' GET: ProductByCategory
         Function Index() As ActionResult
             Return View()
         End Function
-
     End Class
 End Namespace

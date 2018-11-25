@@ -64,6 +64,8 @@ function ListDesCategories() {
         return false;
     }
 
+    alert('salut liste des categories');
+
     $.removeCookie("CategorieIdTemporaire");
 
     $.ajax({
@@ -821,6 +823,10 @@ function ChariotConsommateurPetit(resultaChariotConsommateur) {
     var htmlResultChariotConsommateur = '';
     var valeurSubTotalChariot = 0;
     var quantiteProduits = 0;
+
+    if (resultaChariotConsommateur === null) {
+        return false;
+    }
 
     if (resultaChariotConsommateur.responseJSON.dataResult.length <= 0) {
         $("#petitChariotConsommateur").empty();

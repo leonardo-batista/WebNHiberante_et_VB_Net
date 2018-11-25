@@ -2948,10 +2948,29 @@
       <DependentUpon>Traduction.en-CA.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\AboutController.vb" />
     <Compile Include="Controllers\AccueilController.vb" />
+    <Compile Include="Controllers\ChariotController.vb" />
+    <Compile Include="Controllers\ContactController.vb" />
+    <Compile Include="Controllers\FaqController.vb" />
+    <Compile Include="Controllers\ProductByCategoryController.vb" />
+    <Compile Include="Controllers\ProductController.vb" />
+    <Compile Include="Controllers\ProductDetailController.vb" />
+    <Compile Include="Controllers\TrackOrderController.vb" />
+    <Compile Include="DAO\CategorieDAO.vb" />
+    <Compile Include="DAO\ChariotDAO.vb" />
+    <Compile Include="DAO\ConsommateurDAO.vb" />
+    <Compile Include="DAO\ProduitDAO.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Class\Categorie.vb" />
+    <Compile Include="Models\Class\Chariot.vb" />
+    <Compile Include="Models\Class\Client.vb" />
+    <Compile Include="Models\Class\ClientSession.vb" />
+    <Compile Include="Models\Class\Produit.vb" />
+    <Compile Include="Models\Class\Utilisateur.vb" />
+    <Compile Include="Models\Interface\ITable.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -3016,6 +3035,15 @@
     <Content Include="Views\Shared\_Layout.vbhtml" />
     <Content Include="Views\Shared\_Footer.vbhtml" />
     <Content Include="Views\Shared\_Header.vbhtml" />
+    <Content Include="Views\About\Index.vbhtml" />
+    <Content Include="Views\Chariot\Index.vbhtml" />
+    <Content Include="Views\Contact\Index.vbhtml" />
+    <Content Include="Views\Faq\Index.vbhtml" />
+    <Content Include="Views\Product\Index.vbhtml" />
+    <Content Include="Views\ProductByCategory\Index.vbhtml" />
+    <Content Include="Views\ProductDetail\Index.vbhtml" />
+    <Content Include="Views\TrackOrder\Index.vbhtml" />
+    <Content Include="Views\Accueil\Index.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3025,7 +3053,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Class\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
