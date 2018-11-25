@@ -72,5 +72,338 @@ Namespace Resources
                 Return ResourceManager.GetString("Accueil", resourceCulture)
             End Get
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Achetez Déjà.
+        '''</summary>
+        Friend Shared ReadOnly Property AchetezMaintenant() As String
+            Get
+                Return ResourceManager.GetString("AchetezMaintenant", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Aide-moi.
+        '''</summary>
+        Friend Shared ReadOnly Property Aide() As String
+            Get
+                Return ResourceManager.GetString("Aide", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Ajouter.
+        '''</summary>
+        Friend Shared ReadOnly Property AjouterChariot() As String
+            Get
+                Return ResourceManager.GetString("AjouterChariot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Appliquer Coupon.
+        '''</summary>
+        Friend Shared ReadOnly Property AppliquerCoupon() As String
+            Get
+                Return ResourceManager.GetString("AppliquerCoupon", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to À propos.
+        '''</summary>
+        Friend Shared ReadOnly Property Apropos() As String
+            Get
+                Return ResourceManager.GetString("Apropos", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Boutique.
+        '''</summary>
+        Friend Shared ReadOnly Property Boutique() As String
+            Get
+                Return ResourceManager.GetString("Boutique", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Bulletin.
+        '''</summary>
+        Friend Shared ReadOnly Property Bulletin() As String
+            Get
+                Return ResourceManager.GetString("Bulletin", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Categories.
+        '''</summary>
+        Friend Shared ReadOnly Property Categories() As String
+            Get
+                Return ResourceManager.GetString("Categories", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Chariot.
+        '''</summary>
+        Friend Shared ReadOnly Property Chariot() As String
+            Get
+                Return ResourceManager.GetString("Chariot", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Check Out.
+        '''</summary>
+        Friend Shared ReadOnly Property CheckOut() As String
+            Get
+                Return ResourceManager.GetString("CheckOut", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Contact.
+        '''</summary>
+        Friend Shared ReadOnly Property Contact() As String
+            Get
+                Return ResourceManager.GetString("Contact", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Code Promo.
+        '''</summary>
+        Friend Shared ReadOnly Property CouponCode() As String
+            Get
+                Return ResourceManager.GetString("CouponCode", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to de bas en haut.
+        '''</summary>
+        Friend Shared ReadOnly Property DeBasEnHaut() As String
+            Get
+                Return ResourceManager.GetString("DeBasEnHaut", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Filtre.
+        '''</summary>
+        Friend Shared ReadOnly Property Filtre() As String
+            Get
+                Return ResourceManager.GetString("Filtre", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Filtres.
+        '''</summary>
+        Friend Shared ReadOnly Property Filtres() As String
+            Get
+                Return ResourceManager.GetString("Filtres", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to haut en bas.
+        '''</summary>
+        Friend Shared ReadOnly Property HautEnBas() As String
+            Get
+                Return ResourceManager.GetString("HautEnBas", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Informatique.
+        '''</summary>
+        Friend Shared ReadOnly Property Informatique() As String
+            Get
+                Return ResourceManager.GetString("Informatique", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Intervalle.
+        '''</summary>
+        Friend Shared ReadOnly Property Intervalle() As String
+            Get
+                Return ResourceManager.GetString("Intervalle", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Liens.
+        '''</summary>
+        Friend Shared ReadOnly Property Liens() As String
+            Get
+                Return ResourceManager.GetString("Liens", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Livraison gratuit partout au Québec.
+        '''</summary>
+        Friend Shared ReadOnly Property LivraisonMessage() As String
+            Get
+                Return ResourceManager.GetString("LivraisonMessage", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Meuble.
+        '''</summary>
+        Friend Shared ReadOnly Property Meuble() As String
+            Get
+                Return ResourceManager.GetString("Meuble", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Mise à jour panier.
+        '''</summary>
+        Friend Shared ReadOnly Property MiseJourPanier() As String
+            Get
+                Return ResourceManager.GetString("MiseJourPanier", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Alert.
+        '''</summary>
+        Friend Shared ReadOnly Property msgAlerte() As String
+            Get
+                Return ResourceManager.GetString("msgAlerte", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Erreur.
+        '''</summary>
+        Friend Shared ReadOnly Property msgErreur() As String
+            Get
+                Return ResourceManager.GetString("msgErreur", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Information.
+        '''</summary>
+        Friend Shared ReadOnly Property msgInformation() As String
+            Get
+                Return ResourceManager.GetString("msgInformation", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Nouveau.
+        '''</summary>
+        Friend Shared ReadOnly Property Nouveau() As String
+            Get
+                Return ResourceManager.GetString("Nouveau", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Nouveaux produits.
+        '''</summary>
+        Friend Shared ReadOnly Property NouveauxProduits() As String
+            Get
+                Return ResourceManager.GetString("NouveauxProduits", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Popularité.
+        '''</summary>
+        Friend Shared ReadOnly Property Popularite() As String
+            Get
+                Return ResourceManager.GetString("Popularite", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Prix.
+        '''</summary>
+        Friend Shared ReadOnly Property Prix() As String
+            Get
+                Return ResourceManager.GetString("Prix", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Produit.
+        '''</summary>
+        Friend Shared ReadOnly Property Produit() As String
+            Get
+                Return ResourceManager.GetString("Produit", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Allez-y et ajoutez quelque chose !!!.
+        '''</summary>
+        Friend Shared ReadOnly Property ProfitezVous() As String
+            Get
+                Return ResourceManager.GetString("ProfitezVous", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Quantite.
+        '''</summary>
+        Friend Shared ReadOnly Property Quantite() As String
+            Get
+                Return ResourceManager.GetString("Quantite", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Recherche de produits....
+        '''</summary>
+        Friend Shared ReadOnly Property RechercheProduits() As String
+            Get
+                Return ResourceManager.GetString("RechercheProduits", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Sport.
+        '''</summary>
+        Friend Shared ReadOnly Property Sport() As String
+            Get
+                Return ResourceManager.GetString("Sport", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Tous.
+        '''</summary>
+        Friend Shared ReadOnly Property Tous() As String
+            Get
+                Return ResourceManager.GetString("Tous", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Tri par défaut.
+        '''</summary>
+        Friend Shared ReadOnly Property TriParDefaut() As String
+            Get
+                Return ResourceManager.GetString("TriParDefaut", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to Vêtement.
+        '''</summary>
+        Friend Shared ReadOnly Property Vetement() As String
+            Get
+                Return ResourceManager.GetString("Vetement", resourceCulture)
+            End Get
+        End Property
     End Class
 End Namespace

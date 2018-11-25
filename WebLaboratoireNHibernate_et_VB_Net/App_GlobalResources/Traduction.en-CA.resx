@@ -120,4 +120,115 @@
   <data name="Accueil" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="AchetezMaintenant" xml:space="preserve">
+    <value>Shop Now</value>
+  </data>
+  <data name="Aide" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="AjouterChariot" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+  <data name="AppliquerCoupon" xml:space="preserve">
+    <value>Apply Coupon</value>
+  </data>
+  <data name="Apropos" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Boutique" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="Bulletin" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Chariot" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Check out</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="CouponCode" xml:space="preserve">
+    <value>Coupon Code</value>
+  </data>
+  <data name="DeBasEnHaut" xml:space="preserve">
+    <value>low to high</value>
+  </data>
+  <data name="Filtre" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Filtres" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="HautEnBas" xml:space="preserve">
+    <value>high to low</value>
+  </data>
+  <data name="Informatique" xml:space="preserve">
+    <value>Informatic</value>
+  </data>
+  <data name="Intervalle" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Liens" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="LivraisonMessage" xml:space="preserve">
+    <value>Free delivery everywhere in Quebec</value>
+  </data>
+  <data name="Meuble" xml:space="preserve">
+    <value>Furniture</value>
+  </data>
+  <data name="MiseJourPanier" xml:space="preserve">
+    <value>Update Cart</value>
+  </data>
+  <data name="msgAlerte" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="msgErreur" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msgInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Nouveau" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NouveauxProduits" xml:space="preserve">
+    <value>New products</value>
+  </data>
+  <data name="Popularite" xml:space="preserve">
+    <value>Popularity</value>
+  </data>
+  <data name="Prix" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Produit" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="ProfitezVous" xml:space="preserve">
+    <value>Go ahead and add something !!!</value>
+  </data>
+  <data name="Quantite" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="RechercheProduits" xml:space="preserve">
+    <value>Search products...</value>
+  </data>
+  <data name="Sport" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Tous" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="TriParDefaut" xml:space="preserve">
+    <value>Default Sorting</value>
+  </data>
+  <data name="Vetement" xml:space="preserve">
+    <value>Dresses</value>
+  </data>
 </root>

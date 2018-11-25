@@ -6,27 +6,6 @@ WebLaboratoireNHibernate_et_VB_Net
 </name>
 </assembly>
 <members>
-<member name="T:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction">
-<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member>
-<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.ResourceManager">
-<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member>
-<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Culture">
-<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member>
-<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Accueil">
-<summary>
-  Looks up a localized string similar to Accueil.
-</summary>
-</member>
 <member name="T:WebLaboratoireNHibernate_et_VB_Net.My.MyWebExtension">
  <summary>
  Module used to define the properties that are available in the My Namespace for Web projects.
@@ -57,6 +36,212 @@ WebLaboratoireNHibernate_et_VB_Net
  <summary>
  Returns the Asp log object.
  </summary>
+</member>
+<member name="T:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Accueil">
+<summary>
+  Looks up a localized string similar to Accueil.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.AchetezMaintenant">
+<summary>
+  Looks up a localized string similar to Achetez Déjà.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Aide">
+<summary>
+  Looks up a localized string similar to Aide-moi.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.AjouterChariot">
+<summary>
+  Looks up a localized string similar to Ajouter.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.AppliquerCoupon">
+<summary>
+  Looks up a localized string similar to Appliquer Coupon.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Apropos">
+<summary>
+  Looks up a localized string similar to À propos.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Boutique">
+<summary>
+  Looks up a localized string similar to Boutique.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Bulletin">
+<summary>
+  Looks up a localized string similar to Bulletin.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Categories">
+<summary>
+  Looks up a localized string similar to Categories.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Chariot">
+<summary>
+  Looks up a localized string similar to Chariot.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.CheckOut">
+<summary>
+  Looks up a localized string similar to Check Out.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Contact">
+<summary>
+  Looks up a localized string similar to Contact.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.CouponCode">
+<summary>
+  Looks up a localized string similar to Code Promo.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.DeBasEnHaut">
+<summary>
+  Looks up a localized string similar to de bas en haut.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Filtre">
+<summary>
+  Looks up a localized string similar to Filtre.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Filtres">
+<summary>
+  Looks up a localized string similar to Filtres.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.HautEnBas">
+<summary>
+  Looks up a localized string similar to haut en bas.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Informatique">
+<summary>
+  Looks up a localized string similar to Informatique.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Intervalle">
+<summary>
+  Looks up a localized string similar to Intervalle.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Liens">
+<summary>
+  Looks up a localized string similar to Liens.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.LivraisonMessage">
+<summary>
+  Looks up a localized string similar to Livraison gratuit partout au Québec.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Meuble">
+<summary>
+  Looks up a localized string similar to Meuble.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.MiseJourPanier">
+<summary>
+  Looks up a localized string similar to Mise à jour panier.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.msgAlerte">
+<summary>
+  Looks up a localized string similar to Alert.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.msgErreur">
+<summary>
+  Looks up a localized string similar to Erreur.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.msgInformation">
+<summary>
+  Looks up a localized string similar to Information.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Nouveau">
+<summary>
+  Looks up a localized string similar to Nouveau.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.NouveauxProduits">
+<summary>
+  Looks up a localized string similar to Nouveaux produits.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Popularite">
+<summary>
+  Looks up a localized string similar to Popularité.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Prix">
+<summary>
+  Looks up a localized string similar to Prix.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Produit">
+<summary>
+  Looks up a localized string similar to Produit.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.ProfitezVous">
+<summary>
+  Looks up a localized string similar to Allez-y et ajoutez quelque chose !!!.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Quantite">
+<summary>
+  Looks up a localized string similar to Quantite.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.RechercheProduits">
+<summary>
+  Looks up a localized string similar to Recherche de produits....
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Sport">
+<summary>
+  Looks up a localized string similar to Sport.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Tous">
+<summary>
+  Looks up a localized string similar to Tous.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.TriParDefaut">
+<summary>
+  Looks up a localized string similar to Tri par défaut.
+</summary>
+</member>
+<member name="P:WebLaboratoireNHibernate_et_VB_Net.Resources.Traduction.Vetement">
+<summary>
+  Looks up a localized string similar to Vêtement.
+</summary>
 </member>
 </members>
 </doc>

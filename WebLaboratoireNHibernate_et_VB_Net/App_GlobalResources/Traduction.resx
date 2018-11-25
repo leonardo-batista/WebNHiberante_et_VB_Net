@@ -120,4 +120,115 @@
   <data name="Accueil" xml:space="preserve">
     <value>Accueil</value>
   </data>
+  <data name="AchetezMaintenant" xml:space="preserve">
+    <value>Achetez Déjà</value>
+  </data>
+  <data name="Aide" xml:space="preserve">
+    <value>Aide-moi</value>
+  </data>
+  <data name="AjouterChariot" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AppliquerCoupon" xml:space="preserve">
+    <value>Appliquer Coupon</value>
+  </data>
+  <data name="Apropos" xml:space="preserve">
+    <value>À propos</value>
+  </data>
+  <data name="Boutique" xml:space="preserve">
+    <value>Boutique</value>
+  </data>
+  <data name="Bulletin" xml:space="preserve">
+    <value>Bulletin</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Chariot" xml:space="preserve">
+    <value>Chariot</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="CouponCode" xml:space="preserve">
+    <value>Code Promo</value>
+  </data>
+  <data name="DeBasEnHaut" xml:space="preserve">
+    <value>de bas en haut</value>
+  </data>
+  <data name="Filtre" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="Filtres" xml:space="preserve">
+    <value>Filtres</value>
+  </data>
+  <data name="HautEnBas" xml:space="preserve">
+    <value>haut en bas</value>
+  </data>
+  <data name="Informatique" xml:space="preserve">
+    <value>Informatique</value>
+  </data>
+  <data name="Intervalle" xml:space="preserve">
+    <value>Intervalle</value>
+  </data>
+  <data name="Liens" xml:space="preserve">
+    <value>Liens</value>
+  </data>
+  <data name="LivraisonMessage" xml:space="preserve">
+    <value>Livraison gratuit partout au Québec</value>
+  </data>
+  <data name="Meuble" xml:space="preserve">
+    <value>Meuble</value>
+  </data>
+  <data name="MiseJourPanier" xml:space="preserve">
+    <value>Mise à jour panier</value>
+  </data>
+  <data name="msgAlerte" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="msgErreur" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="msgInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Nouveau" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="NouveauxProduits" xml:space="preserve">
+    <value>Nouveaux produits</value>
+  </data>
+  <data name="Popularite" xml:space="preserve">
+    <value>Popularité</value>
+  </data>
+  <data name="Prix" xml:space="preserve">
+    <value>Prix</value>
+  </data>
+  <data name="Produit" xml:space="preserve">
+    <value>Produit</value>
+  </data>
+  <data name="ProfitezVous" xml:space="preserve">
+    <value>Allez-y et ajoutez quelque chose !!!</value>
+  </data>
+  <data name="Quantite" xml:space="preserve">
+    <value>Quantite</value>
+  </data>
+  <data name="RechercheProduits" xml:space="preserve">
+    <value>Recherche de produits...</value>
+  </data>
+  <data name="Sport" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="Tous" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="TriParDefaut" xml:space="preserve">
+    <value>Tri par défaut</value>
+  </data>
+  <data name="Vetement" xml:space="preserve">
+    <value>Vêtement</value>
+  </data>
 </root>

@@ -1,0 +1,68 @@
+﻿
+/* LOADING */
+#loading{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+    top: 0;
+    left: 0;
+	display: block;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.8);
+}
+#loading > div{
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background: #ddd;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+    #loading > div:before {
+        /*font-family: 'Glyphicons Halflings';*/
+        font-family: 'FontAwesome';
+        display: block;
+        font-size: 40px;
+        /*content: '\f085';*/
+        content: '\f013';
+        color: #3C3C3C;
+        line-height: 50px;
+        text-align: center;
+        -webkit-animation: spin 3s linear infinite; spin s linear infinite; spin s linear infinite;
+        -moz-animation: spin 3s linear infinite; spin s linear infinite; spin s linear infinite;
+        -o-animation: spin 3s linear infinite; spin s linear infinite;
+        animation: spin 3s linear infinite;
+    }
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    } 
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    } 
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    } 
+}
