@@ -64,7 +64,7 @@ function ListDesCategories() {
         return false;
     }
 
-    alert('salut liste des categories');
+    //alert('salut liste des categories');
 
     $.removeCookie("CategorieIdTemporaire");
 

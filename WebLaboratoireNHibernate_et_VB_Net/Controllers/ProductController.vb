@@ -26,8 +26,8 @@ Namespace Controllers
             Return View()
         End Function
 
-        <HttpGet()>
-        <OutputCache(Duration:=3600, VaryByParam:="none", Location:=OutputCacheLocation.Server)>
+        '<HttpGet()>
+        '<OutputCache(Duration:=3600, VaryByParam:="none", Location:=OutputCacheLocation.Server)>
         Function ListeCategorieProduit() As JsonResult
             Try
                 Return Json(New With {.dataResult = categorieDAO.ListeCategorieProduit()}, JsonRequestBehavior.AllowGet)

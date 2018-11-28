@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
   <session-factory>
-    <property name="dialect">
-      NHibernate.Dialect.MsSql2012Dialect, NHibernate
-    </property>
-    <property name="connection.connection_string">
-      Server=DESKTOP-FLQS93H;Database=LABORATOIRE;User Id=sa;Password=admin
-    </property>
-    <property name="adonet.batch_size">
-      100
-    </property>
+    <property name="dialect">NHibernate.Dialect.MsSql2012Dialect, NHibernate</property>
+    <property name="connection.connection_string">Server=DESKTOP-FLQS93H;Database=LABORATOIRE;User Id=sa;Password=admin</property>
+    <property name="format_sql">true</property>
+    <property name="show_sql">true</property>
+    <mapping assembly="LaboratoireNHibernate_et_VB_Net"/>
   </session-factory>
 </hibernate-configuration>
+
+<!--<readme>
+        Pour lire le fichier *.hbm.xml par "Assembly", vous devez sélectionner la propriete 
+        "Build Action = Embedded Resource" du fichier *.hbm.xml
+</readme>-->

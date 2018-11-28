@@ -1,7 +1,7 @@
 ﻿Imports log4net
 
 Public Class Logger
-    Private Shared logger As ILog = LogManager.GetLogger("ExampleAppender")
+    Private Shared logger As ILog = LogManager.GetLogger("trace")
 
     Public Shared Sub LogInfo(ByVal str As String)
         logger.Info(str)

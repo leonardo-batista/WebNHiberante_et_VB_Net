@@ -15,7 +15,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>WebLaboratoireNHibernate_et_VB_Net</RootNamespace>
-    <AssemblyName>WebLaboratoireNHibernate_et_VB_Net</AssemblyName>
+    <AssemblyName>LaboratoireNHibernate_et_VB_Net</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
@@ -34,7 +34,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>WebLaboratoireNHibernate_et_VB_Net.xml</DocumentationFile>
+    <DocumentationFile>LaboratoireNHibernate_et_VB_Net.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <TypeScriptTarget>ES5</TypeScriptTarget>
     <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
@@ -56,7 +56,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>WebLaboratoireNHibernate_et_VB_Net.xml</DocumentationFile>
+    <DocumentationFile>LaboratoireNHibernate_et_VB_Net.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -146,9 +146,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Configuration\hibernate.cfg.xml">
+    <EmbeddedResource Include="Cartographie\Categorie.hbm.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\hibernate.cfg.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -2978,6 +2981,7 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\NHibernateHelper.vb" />
     <Compile Include="Logger\Logger.vb" />
     <Compile Include="Models\Class\Categorie.vb" />
     <Compile Include="Models\Class\Chariot.vb" />
