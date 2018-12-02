@@ -1,7 +1,9 @@
-﻿Public Class Utilisateur
+﻿Namespace Models
+    Public Class Utilisateur
 
-    Public Sub New()
+        Public Sub New()
 
-    End Sub
+        End Sub
 
-End Class
+    End Class
+End Namespace

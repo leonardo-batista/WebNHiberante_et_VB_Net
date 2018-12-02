@@ -1,18 +1,18 @@
 ﻿Namespace Models
 
-    Public Class Categorie : Implements ITable
+    Public Class Marque : Implements ITable
 
         Protected Property _id As Int32
         Protected Property _dateCreation As DateTime?
         Protected Property _actif As Boolean
-        Protected Property _nomCategorie As String
+        Protected Property _nomMarque As String
 
-        Public Overridable Property Actif As Boolean Implements ITable.Actif
+        Public Overridable Property Id As Integer Implements ITable.Id
             Get
-                Return _actif
+                Return _id
             End Get
-            Set(value As Boolean)
-                _actif = value
+            Set(value As Integer)
+                _id = value
             End Set
         End Property
 
@@ -25,21 +25,21 @@
             End Set
         End Property
 
-        Public Overridable Property Id As Integer Implements ITable.Id
+        Public Overridable Property Actif As Boolean Implements ITable.Actif
             Get
-                Return _id
+                Return _actif
             End Get
-            Set(value As Integer)
-                _id = value
+            Set(value As Boolean)
+                _actif = value
             End Set
         End Property
 
-        Public Overridable Property NomCategorie As String
+        Public Overridable Property NomMarque As String
             Get
-                Return _nomCategorie
+                Return _nomMarque
             End Get
             Set(value As String)
-                _nomCategorie = value
+                _nomMarque = value
             End Set
         End Property
 
@@ -47,5 +47,4 @@
 
         End Sub
     End Class
-
 End Namespace

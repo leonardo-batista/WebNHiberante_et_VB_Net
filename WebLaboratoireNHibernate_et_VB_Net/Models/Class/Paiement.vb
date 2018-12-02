@@ -1,18 +1,18 @@
 ﻿Namespace Models
 
-    Public Class Categorie : Implements ITable
+    Public Class Paiement : Implements ITable
 
         Protected Property _id As Int32
         Protected Property _dateCreation As DateTime?
         Protected Property _actif As Boolean
-        Protected Property _nomCategorie As String
+        Protected Property _nomPaiement As String
 
-        Public Overridable Property Actif As Boolean Implements ITable.Actif
+        Public Overridable Property Id As Integer Implements ITable.Id
             Get
-                Return _actif
+                Return _id
             End Get
-            Set(value As Boolean)
-                _actif = value
+            Set(value As Integer)
+                _id = value
             End Set
         End Property
 
@@ -25,27 +25,29 @@
             End Set
         End Property
 
-        Public Overridable Property Id As Integer Implements ITable.Id
+        Public Overridable Property Actif As Boolean Implements ITable.Actif
             Get
-                Return _id
+                Return _actif
             End Get
-            Set(value As Integer)
-                _id = value
+            Set(value As Boolean)
+                _actif = value
             End Set
         End Property
 
-        Public Overridable Property NomCategorie As String
+        Public Overridable Property NomPaiement As String
             Get
-                Return _nomCategorie
+                Return _nomPaiement
             End Get
             Set(value As String)
-                _nomCategorie = value
+                _nomPaiement = value
             End Set
         End Property
+
 
         Public Sub New()
 
         End Sub
+
     End Class
 
 End Namespace

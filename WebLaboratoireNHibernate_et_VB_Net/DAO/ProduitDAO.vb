@@ -1,4 +1,6 @@
-﻿Public Class ProduitDAO
+﻿Imports WebLaboratoireNHibernate_et_VB_Net.Models
+
+Public Class ProduitDAO
 
     Function ListeDeProduitParCategorie(idCategorie As Int32) As List(Of Produit)
         Try

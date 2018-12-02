@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LaboratoireNHibernate_et_VB_Net" namespace="WebLaboratoireNHibernate_et_VB_Net.Models">
+  <class name="ClientSession" table="TB_CLIENT_SESSION">
+    <id name="IdConsommateur" column="ID_CONSOMMATEUR" type="Guid">
+      <generator class="native" />
+    </id>
+    <property name="DateCreation" column="DATE_CREATION"/>
+  </class>
+</hibernate-mapping>

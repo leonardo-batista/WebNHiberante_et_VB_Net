@@ -5,7 +5,11 @@
     <property name="connection.connection_string">Server=DESKTOP-FLQS93H;Database=LABORATOIRE;User Id=sa;Password=admin</property>
     <property name="format_sql">true</property>
     <property name="show_sql">true</property>
-    <!--<mapping file="C:\Users\lbatista\Documents\00_Projet_Visual_Studio\WebLaboratoireNHibernate_et_VB_Net\WebLaboratoireNHibernate_et_VB_Net\Cartographie\Categorie.hbm.xml"/>-->
     <mapping assembly="LaboratoireNHibernate_et_VB_Net"/>
   </session-factory>
 </hibernate-configuration>
+
+<!--<readme>
+        Pour lire le fichier *.hbm.xml par "Assembly", vous devez sélectionner la propriete 
+        "Build Action = Embedded Resource" du fichier *.hbm.xml
+</readme>-->
