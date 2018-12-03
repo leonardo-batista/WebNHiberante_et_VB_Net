@@ -155,6 +155,9 @@
     <EmbeddedResource Include="Cartographie\ClientSession.hbm.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cartographie\Marque.hbm.xml" />
+    <EmbeddedResource Include="Cartographie\Client.hbm.xml" />
+    <EmbeddedResource Include="Cartographie\Paiement.hbm.xml" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -2986,15 +2989,19 @@
     </Compile>
     <Compile Include="Infrastructure\NHibernateHelper.vb" />
     <Compile Include="Logger\Logger.vb" />
+    <Compile Include="Models\Class\Adresse.vb" />
     <Compile Include="Models\Class\Categorie.vb" />
     <Compile Include="Models\Class\Chariot.vb" />
     <Compile Include="Models\Class\Client.vb" />
     <Compile Include="Models\Class\ClientSession.vb" />
     <Compile Include="Models\Class\Marque.vb" />
+    <Compile Include="Models\Class\Ordre.vb" />
+    <Compile Include="Models\Class\OrdreDetail.vb" />
     <Compile Include="Models\Class\Paiement.vb" />
     <Compile Include="Models\Class\Produit.vb" />
     <Compile Include="Models\Class\Utilisateur.vb" />
     <Compile Include="Models\Enum\EGenre.vb" />
+    <Compile Include="Models\Enum\EProvince.vb" />
     <Compile Include="Models\Interface\ITable.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

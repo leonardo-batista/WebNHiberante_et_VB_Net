@@ -11,7 +11,7 @@
         Protected Property _email As String
         Protected Property _dateNaissance As DateTime?
         Protected Property _nas As String
-        Protected Property _genre As String
+        Protected Property _genre As EGenre
 
         Public Overridable Property Id As Integer Implements ITable.Id
             Get
@@ -94,11 +94,11 @@
             End Set
         End Property
 
-        Public Overridable Property Genre As String
+        Public Overridable Property Genre As EGenre
             Get
                 Return _genre
             End Get
-            Set(value As String)
+            Set(value As EGenre)
                 _genre = value
             End Set
         End Property
