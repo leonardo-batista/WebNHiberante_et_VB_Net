@@ -9,7 +9,7 @@ Public Class CategorieDAO
 
             Using iSession = NHibernateHelper.OpenSession
 
-                resultListeCategories = iSession.CreateCriteria(Of Categorie).List(Of Categorie)
+                resultListeCategories = iSession.QueryOver(Of Categorie).Where(Function(cat) cat.Actif = True).List(Of Categorie)
 
             End Using
 

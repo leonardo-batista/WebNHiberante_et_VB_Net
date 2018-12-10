@@ -156,8 +156,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Cartographie\Marque.hbm.xml" />
-    <EmbeddedResource Include="Cartographie\Client.hbm.xml" />
-    <EmbeddedResource Include="Cartographie\Paiement.hbm.xml" />
+    <EmbeddedResource Include="Cartographie\Client.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartographie\Paiement.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cartographie\Chariot.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />

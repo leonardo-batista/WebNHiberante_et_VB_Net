@@ -11,7 +11,7 @@
         Protected Property _valeurTotalArticle As Decimal
         Protected Property _produit As Produit
 
-        Public Property IdConsommateur As Guid
+        Public Overridable Property IdConsommateur As Guid
             Get
                 Return _idConsommateur
             End Get
@@ -20,7 +20,7 @@
             End Set
         End Property
 
-        Public Property Quantite As Int32
+        Public Overridable Property Quantite As Int32
             Get
                 Return _quantite
             End Get
@@ -29,7 +29,7 @@
             End Set
         End Property
 
-        Public Property ValeurUnitaire As Decimal
+        Public Overridable Property ValeurUnitaire As Decimal
             Get
                 Return _valeurUnitaire
             End Get
@@ -38,7 +38,7 @@
             End Set
         End Property
 
-        Public Property ValeurTotalArticle As Decimal
+        Public Overridable Property ValeurTotalArticle As Decimal
             Get
                 Return _valeurTotalArticle
             End Get
@@ -47,7 +47,7 @@
             End Set
         End Property
 
-        Public Property Produit As Produit
+        Public Overridable Property Produit As Produit
             Get
                 Return _produit
             End Get
@@ -56,7 +56,7 @@
             End Set
         End Property
 
-        Public Property Actif As Boolean Implements ITable.Actif
+        Public Overridable Property Actif As Boolean Implements ITable.Actif
             Get
                 Return _actif
             End Get
@@ -65,7 +65,7 @@
             End Set
         End Property
 
-        Public Property DateCreation As Date? Implements ITable.DateCreation
+        Public Overridable Property DateCreation As Date? Implements ITable.DateCreation
             Get
                 Return _dateCreation
             End Get
@@ -74,7 +74,7 @@
             End Set
         End Property
 
-        Public Property Id As Integer Implements ITable.Id
+        Public Overridable Property Id As Integer Implements ITable.Id
             Get
                 Return _id
             End Get

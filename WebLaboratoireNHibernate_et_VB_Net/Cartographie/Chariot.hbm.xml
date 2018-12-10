@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="LaboratoireNHibernate_et_VB_Net" namespace="WebLaboratoireNHibernate_et_VB_Net.Models">
+  <class name="Chariot" table="TB_CHARIOT_TEMP">
+    <id name="Id" column="ID_CHARIOT" type="Int32">
+      <generator class="native" />
+    </id>
+    <property name="DateCreation" column="DATE_CREATION"/>
+    <property name="Actif" column="ACTIF"/>    
+    <property name="IdConsommateur" column="ID_CONSOMMATEUR"/>
+    <property name="Quantite" column="QUANTITE"/>
+    <property name="ValeurUnitaire" column="VALEUR_UNITAIRE"/>
+    <property name="ValeurTotalArticle" column="VALEUR_TOTAL_ARTICLE"/>
+  </class>
+</hibernate-mapping>

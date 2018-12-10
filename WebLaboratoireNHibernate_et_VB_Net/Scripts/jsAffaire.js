@@ -76,9 +76,10 @@ function ListDesCategories() {
 
             if (data.dataResult !== null) {
                 for (var count = 0; count < 5; count++) {
-                    $("#linkCategorie" + count).attr("href", "javascript:EnregistrerLoptiondeCagegorie(" + data.dataResult[count].Id + ")");
+
+                    $('#linkCategorie' + count).attr("href", "javascript:EnregistrerLoptiondeCagegorie(" + data.dataResult[count].Id + ")");
                     $('#idCategorie' + count).val(data.dataResult[count].Id);
-                    $('#nomCategorie' + count).text(data.dataResult[count].NomCaregorie);
+                    $('#nomCategorie' + count).text(data.dataResult[count].NomCategorie);
                 }
             }
         },
@@ -159,7 +160,7 @@ function ListeDesCategoriePageProduct() {
                         $('#texteCategoriesTous').val() +
                         '</a></li>';
 
-                for (var count = 0; count < 5; count++) {
+                for (var count = 0; count < data.dataResult.count; count++) {
                     $('#idCategorie' + count).val(data.dataResult[count].Id);
                     $('#nomCategorie' + count).text(data.dataResult[count].NomCaregorie);
 
